@@ -1,8 +1,61 @@
-p, h1, h2, h3, ul, li {
+/*tipografia*/
+.texto {
   font-family: "Abel", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-body{ width: 100%;
+p{  
+color: #6b0002;
+  }
+.fondo{
+  background-color: rgb(13, 175, 197)}
+
+
+/*fondo*/
+body{
   background-image:URL(fotos/Fondo.jpeg);}
+
+
+/*orden del contenido*/
+main{
+  display: flex;
+  justify-content: space-between;
+}
+section{
+  width: 70%
+    
+}
+article{
+  padding-left: 40px;
+  background: rgba(40, 62, 202, 0.73)
+}
+    aside {
+  width: 25%  
+}
+.Datos{
+  background-color: rgba(40, 62, 202, 0.73)
+}
+
+
+/*menu de navegacion*/
+.Menu{
+  display:inline-flex;
+  width: 150px;
+  height: 50px;
+  background-color: #6b0002
+}
+
+/*header*/
+header{
+  background: black;
+  padding: 5px;
+  border: 2px;
+}
+
+/*pie de pagina*/
+footer{
+  width:100%;
+ padding: 10px;
+}
+.pie{background-color: #6b0002}
 
