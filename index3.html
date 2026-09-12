@@ -20,60 +20,35 @@
         </header>
       
         <main>
-      <form id="formulario">
+     <form id="formulario" class="Datos">
 
-    <h2>Repositorio de grabaciones</h2>
+    <h2 class="T3">Repositorio de grabaciones</h2>
 
-    <!-- CANTIDAD DE OBRAS -->
-    <label for="cantidad">Cantidad de obras:</label>
-    <input type="number" id="cantidad" min="1">
-
-    <br><br>
-
-    <!-- DATOS DEL REPOSITORIO -->
-    <label for="tiempo">
-        Tiempo de transferencia por MB (milisegundos):
-    </label>
-
-    <input type="number" id="tiempo" min="0" step="any" disabled>
-
-    <br><br>
-
-    <label for="costo">
-        Costo mensual de almacenamiento por MB:
-    </label>
-
-    <input type="number" id="costo" min="0" step="any" disabled>
-
-    <br><br>
-
-
-    <!-- LISTA DE OBRAS -->
-    <h3>Seleccionar obras</h3>
+    <h3 class="fondo">Seleccionar obras</h3>
 
     <p>
         Seleccioná las obras que querés almacenar haciendo clic sobre ellas.
     </p>
 
-    <div id="listaObras">
+    <div id="listaObras" >
 
-        <button type="button" class="obra" data-obra="osuperman" disabled>
+        <button type="button" class="obra" data-obra="osuperman">
             O Superman — 8 min — 120 MB
         </button>
 
-        <button type="button" class="obra" data-obra="bigscience" disabled>
+        <button type="button" class="obra" data-obra="bigscience">
             Big Science — 6 min — 100 MB
         </button>
 
-        <button type="button" class="obra" data-obra="letx" disabled>
+        <button type="button" class="obra" data-obra="letx">
             Let X = X — 5 min — 90 MB
         </button>
 
-        <button type="button" class="obra" data-obra="fromtheair" disabled>
+        <button type="button" class="obra" data-obra="fromtheair">
             From the Air — 4 min — 80 MB
         </button>
 
-        <button type="button" class="obra" data-obra="homeland" disabled>
+        <button type="button" class="obra" data-obra="homeland">
             Homeland — 7 min — 110 MB
         </button>
 
@@ -83,19 +58,13 @@
         0 obras seleccionadas
     </p>
 
-
-    <!-- BOTÓN PARA PROCESAR -->
-
     <button type="button" id="botonCalcular" disabled>
         Calcular resultados
     </button>
 
-
-    <!-- RESULTADOS -->
-
     <section id="resultados">
 
-        <h3>Resultados</h3>
+        <h3 class="T3">Resultados</h3>
 
         <p id="duracionTotal"></p>
 
@@ -108,9 +77,6 @@
         <p id="presupuesto"></p>
 
     </section>
-
-
-    <!-- REINICIAR -->
 
     <button type="button" id="botonReiniciar" disabled>
         Reiniciar
