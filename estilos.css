@@ -93,3 +93,25 @@ footer{
  text-decoration: none;
   color: white;
 }
+
+.obra {
+    display: block;
+    width: 350px;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid gold;
+    background-color: #a66bef;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+}
+
+.obra.seleccionada {
+    background-color: #77dd77;
+    color: black;
+}
+
+.obra:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
